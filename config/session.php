@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'domain' => 'agile-fortress-09244.herokuapp.com',
+    'domain' => env('SESSION_DOMAIN', null),
 
     /*
     |--------------------------------------------------------------------------
