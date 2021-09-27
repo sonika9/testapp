@@ -1,7 +1,7 @@
 <html>
 	<head>
 		<meta charset='UTF-8'>
-		<link rel="stylesheet" type="text/css" href="/style.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 		<script src='https://unpkg.com/react@16.3.1/umd/react.production.min.js'></script>
 		<script src='https://unpkg.com/react-dom@16.3.1/umd/react-dom.production.min.js'></script>
