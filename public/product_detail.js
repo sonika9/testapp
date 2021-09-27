@@ -8,7 +8,7 @@ const Link = ReactRouterDOM.Link;
 class ProductDetail extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = { detailType: PRODUCT_DETAIL, quantity: 1 };
+		this.state = { detailType: PRODUCT_DETAIL, quantity: 1, payment_type: 1 };
 		this.handleClickAddToCart = this.handleClickAddToCart.bind(this);
 		this.handleClickCheckout = this.handleClickCheckout.bind(this);
 		this.handleClickRemoveFromCart = this.handleClickRemoveFromCart.bind(this);
