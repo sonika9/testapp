@@ -10,10 +10,10 @@
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.5.4/axios.standalone.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/history/4.5.1/history.js"></script>
 
-		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='products_admin_edit.js'></script>
-		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='products_admin.js'></script>
-		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='transactions.js'></script>
-		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='index_admin.js'></script>
+		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='/js/products_admin_edit.js'></script>
+		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='/js/products_admin.js'></script>
+		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='/js/transactions.js'></script>
+		<script type="text/babel" data-plugins="transform-es2015-modules-umd" src='/js/index_admin.js'></script>
 	</head>
 	<body>
         @yield('content')
