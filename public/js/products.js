@@ -28,7 +28,7 @@ class Product extends React.Component {
 		this.loadProducts(null, qs);
 	}
 	loadProducts( page = null, qs = '' ){
-		let endpoint = page != null ? page+qs : ('/api/products/search'+(qs != '' ? '?'+qs : ''));
+		let endpoint = page != null ? page.replace('http:','')+qs : ('/api/products/search'+(qs != '' ? '?'+qs : ''));
 		axios.get(endpoint)
 				.then(res => {
 					const products = res.data.products.data;

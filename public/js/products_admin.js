@@ -21,7 +21,7 @@ class ProductAdmin extends React.Component {
 		})
 	}
 	loadProducts( page = null){
-		let endpoint = page != null ? page : '/api/products';
+		let endpoint = page != null ? page.replace('http:','') : '/api/products';
 		axios.get(endpoint)
 				.then(res => {
 					const products = res.data.data;

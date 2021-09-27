@@ -9,7 +9,7 @@ class Transaction extends React.Component {
 		this.loadTransactions(page);	
 	}
 	loadTransactions( page = null){
-		let endpoint = page != null ? page : '/api/transactions';
+		let endpoint = page != null ? page.replace('http:','') : '/api/transactions';
 		axios.get(endpoint)
 				.then(res => {
 					const transactions = res.data.data;
