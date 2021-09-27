@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'domain' => '.herokuapp.com',
+    'domain' => 'agile-fortress-09244.herokuapp.com',
 
     /*
     |--------------------------------------------------------------------------
